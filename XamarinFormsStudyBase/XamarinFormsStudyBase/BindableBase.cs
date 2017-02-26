@@ -3,6 +3,9 @@ using System.Runtime.CompilerServices;
 
 namespace Sample
 {
+    /// <summary>
+    /// Bindable base
+    /// </summary>
     public class BindableBase : INotifyPropertyChanged
     {
         protected BindableBase()

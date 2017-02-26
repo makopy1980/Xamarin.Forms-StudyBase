@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:Sample.ViewModels"
+	xmlns:tabpages="clr-namespace:Sample.Pages"
+	x:Class="Sample.Pages.TabRootPage">
+	<ContentPage.BindingContext>
+		<local:TabRootViewModel />
+	</ContentPage.BindingContext>
+	<TabbedPage.Children>
+		<tabpages:FirstPage Title="{Binding Path=Titles[0]}" />
+		<tabpages:SecondPage Title="{Binding Path=Titles[1]}" />
+		<tabpages:ThirdPage Title="{Binding Path=Titles[2]}" />
+	</TabbedPage.Children>
+</TabbedPage>
