@@ -8,8 +8,8 @@
 		<local:TabRootViewModel />
 	</ContentPage.BindingContext>
 	<TabbedPage.Children>
-		<tabpages:FirstPage Title="{Binding Path=Titles[0]}" />
-		<tabpages:SecondPage Title="{Binding Path=Titles[1]}" />
-		<tabpages:ThirdPage Title="{Binding Path=Titles[2]}" />
+		<tabpages:FirstPage Title="{Binding Path=Titles[0]}" Icon="TabIcon1.png" />
+		<tabpages:SecondPage Title="{Binding Path=Titles[1]}" Icon="TabIcon2.png" />
+		<tabpages:ThirdPage Title="{Binding Path=Titles[2]}" Icon="TabIcon3.png" />
 	</TabbedPage.Children>
 </TabbedPage>
