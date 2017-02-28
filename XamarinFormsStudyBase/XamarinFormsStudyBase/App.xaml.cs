@@ -1,5 +1,6 @@
 ﻿using Xamarin.Forms;
 using Sample.Pages;
+using Util;
 
 namespace XamarinFormsStudyBase
 {
@@ -15,6 +16,7 @@ namespace XamarinFormsStudyBase
         protected override void OnStart()
         {
             // Handle when your app starts
+            Trace.WriteMethod();
         }
 
         protected override void OnSleep()
