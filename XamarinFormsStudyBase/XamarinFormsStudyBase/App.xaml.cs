@@ -8,6 +8,10 @@ namespace XamarinFormsStudyBase
     {
         public App()
         {
+
+            // ライフサイクルメソッド調査
+            Trace.WriteMethod();
+
             InitializeComponent();
 
             MainPage = new TabRootPage();
@@ -15,17 +19,25 @@ namespace XamarinFormsStudyBase
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            // ライフサイクルメソッド調査
             Trace.WriteMethod();
+
+            // Handle when your app starts
         }
 
         protected override void OnSleep()
         {
+            // ライフサイクルメソッド調査
+            Trace.WriteMethod();
+
             // Handle when your app sleeps
         }
 
         protected override void OnResume()
         {
+            // ライフサイクルメソッド調査
+            Trace.WriteMethod();
+
             // Handle when your app resumes
         }
     }
